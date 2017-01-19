@@ -7,4 +7,5 @@ services:
     volumes:
      - .:/code
   redis:
+    # docker images =>  REPOSITORY=redis : TAG = alpine  
     image: "redis:alpine"
