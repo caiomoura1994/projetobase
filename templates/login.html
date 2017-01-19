@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block body %}
+<nav class="green">
+	<a href="#" class="brand-logo center">Nome da app</a>
+</nav>
+<div class="row ">
+	<form class="col s12">
+		<div class="col s12 m2 l2"></div>
+			<div class="col s12 m8 l8">
+				<div class="card">
+					<div class="card-image">
+					</div>
+					<div class="card-content">
+						<div class="row">
+							<div class="input-field col s6">
+					          <input id="email" type="text" class="validate">
+					          <label for="email">Email</label>
+					        </div>
+
+					        <div class="input-field col s6">
+					          <input id="senha" type="password" class="validate">
+					          <label for="senha">Senha</label>
+					        </div>
+
+					    </div>
+					</div>
+					<div class="card-action">
+						<a href="#" class="btn waves-effect waves-light">Entrar</a>
+						<a href="#">Registrar-se</a>
+					</div>
+				</div>
+			</div>
+		<div class="col s12 m2 l2"></div>
+	</form>
+</div>
+{% endblock %}
